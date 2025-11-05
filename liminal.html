@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+
+<head>
+  <title>Liminal Spaces</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    .gallery {
+      display: grid;
+      gap: 16px;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    }
+    .gallery figure {
+      margin: 0;
+    }
+    .gallery img {
+      width: 100%;
+      height: auto;
+      border-radius: 12px;
+      display: block;
+    }
+    .gallery figcaption {
+      margin-top: 6px;
+      font-size: 0.95rem;
+      opacity: 0.8;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="icon.svg" alt="Site icon" width="28" height="28">
+    <a href="index.html">Home</a>
+    <a href="collection.html" class="active">Collection</a>
+  </header>
+
+  <main id="main">
+    <h1>Liminal Spaces</h1>
+    <p class="max-width">In between places and quiet moments</p>
+
+    <div class="gallery">
+      <div>
+        <img src="images/liminal-spaces/liminal-spaces-collection/liminal_1.jpg" alt="liminal photo one">
+       <p>1/30 f4.0 ISO 2500, Quaint hallway of Prince of Wales Hotel, Niagara-on-the-Lake</p>
+
+      </div>
+
+      <div>
+        <img src="images/liminal-spaces/liminal-spaces-collection/liminal_2.jpg" alt="liminal photo two">
+       <p>1/125 f11 ISO 6400, Bench, Main Street, Welland</p>
+      </div>
+
+      <div>
+        <img src="images/liminal-spaces/liminal-spaces-collection/liminal_3.jpg" alt="liminal photo three">
+       <p>1/25 f4.0 ISO 12800, Empty Welland Bridge 13 at 2 AM, Main Street, Welland</p>
+
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer2">
+    <p>Created for Web Design 1.</p>
+  </footer>
+</body>
+</html>

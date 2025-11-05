@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+
+<head>
+  <title>Master of Photography</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    .gallery {
+      display: grid;
+      gap: 16px;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    }
+    .gallery figure {
+      margin: 0;
+    }
+    .gallery img {
+      width: 100%;
+      height: auto;
+      border-radius: 12px;
+      display: block;
+    }
+    .gallery figcaption {
+      margin-top: 6px;
+      font-size: 0.95rem;
+      opacity: 0.8;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <img src="icon.svg" alt="Site icon" width="28" height="28">
+    <a href="index.html">Home</a>
+    <a href="collection.html" class="active">Collection</a>
+  </header>
+
+  <main id="main">
+    <h1>Master of Photography</h1>
+    <p class="max-width">Learning from who inspires me</p>
+
+    <div class="gallery">
+      <div>
+        <img src="images/photographer/photographer-collection/photo.1.jpg" alt="photographer photo one">
+        <p>1/500 f4.5 ISO 400</p>
+      </div>
+
+      <div>
+        <img src="images/photographer/photographer-collection/photo.2.jpg" alt="photographer photo two">
+        <p>1/320 f4.5 ISO 6400</p>
+      </div>
+
+      <div>
+        <img src="images/photographer/photographer-collection/photo.3.jpg" alt="photographer photo three">
+        <p>1/250 f4 ISO 6400</p>
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer2">
+    <p>Created for Web Design 1.</p>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+
+<head>
+  <title>Product Photography</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    .gallery {
+      display: grid;
+      gap: 16px;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    }
+    .gallery figure {
+      margin: 0;
+    }
+    .gallery img {
+      width: 100%;
+      height: auto;
+      border-radius: 12px;
+      display: block;
+    }
+    .gallery figcaption {
+      margin-top: 6px;
+      font-size: 0.95rem;
+      opacity: 0.8;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <img src="icon.svg" alt="Site icon" width="28" height="28">
+    <a href="index.html">Home</a>
+    <a href="collection.html" class="active">Collection</a>
+  </header>
+
+  <main id="main">
+    <h1>Product Photography</h1>
+    <p class="max-width">Every detail matters here</p>
+
+    <div class="gallery">
+      <div>
+        <img src="images/product-photo/product-collection/product.1.jpg" alt="product photo one">
+        <p>1/125 f8 ISO 200, Studio setup at Niagara College</p>
+      </div>
+
+      <div>
+        <img src="images/product-photo/product-collection/product.2.jpg" alt="product photo two">
+        <p>1/125 f4 ISO 1000, Home studio, Welland</p>
+      </div>
+
+      <div>
+        <img src="images/product-photo/product-collection/product.3.jpg" alt="product photo three">
+        <p>1/125 f9 ISO 200, Studio setup at Niagara College</p>
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer2">
+    <p>Created for Web Design 1.</p>
+  </footer>
+</body>
+</html>
